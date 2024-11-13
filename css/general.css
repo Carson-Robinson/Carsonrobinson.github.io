@@ -1,0 +1,40 @@
+#text{
+    color:crimson;
+}
+body{
+    background-color: aqua;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+   flex-direction:column;
+}
+th{
+    background-color: blue;
+    color:black;
+    text-align: center;
+}
+td{
+    color: powderblue;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: goldenrod;
+}
+tr:nth-child(odd){
+    background-color: lightcoral;
+}
+table, th, td{
+    border: 1px solid;
+}
+table{
+  width: 100%;
+    border-collapse:collapse;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+#link{
+  padding: 50px;
+}
+   
